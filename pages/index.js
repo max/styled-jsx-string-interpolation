@@ -5,9 +5,9 @@ const colors = {
 
 export default () => (
   <div className='container'>
-    <h1>Hello World</h1>
-
-    <p>This is a <a href="#">link</a>.</p>
+    <p>
+      This is { colors.text } text with a <a href="#">{ colors.tint} link</a>.
+    </p>
 
     <style jsx global>{`
       body {
